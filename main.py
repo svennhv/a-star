@@ -32,6 +32,14 @@ print("\n\nFrom boards!\n")
 
 
 print([parse_board(get_board("1-1"))])
+(
+
+came_from, cost_so_far = a_star_search(parse_board(get_board("1-1")), [parse_board(get_board("1-1"),True,False)], [parse_board(get_board("1-1"),False,True)])
+draw_grid(diagram4, width=20,height = 7, point_to=came_from, start=parse_board(get_board("1-1"),True,False), goal=parse_board(get_board("1-1"),False,True))
+draw_grid(diagram4, width=20,height = 7, number=cost_so_far, start=parse_board(get_board("1-1"),True,False), goal=parse_board(get_board("1-1"),False,True))
+
+
+
 
 '''
 
