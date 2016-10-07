@@ -29,11 +29,8 @@ draw_grid(diagram4, width=3, number=cost_so_far, start=(1, 4), goal=(7, 8))
 
 print("\n\nFrom boards!\n")
 
-with open("boards/board-1-1.txt") as f:
-    board = f.read();
-print(board)
 
-print(parse_board(get_board(1-1)))
+print([parse_board(get_board("1-1"))])
 
 '''
 
