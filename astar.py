@@ -21,6 +21,8 @@ def main():
     ans = ""
     while ans != "q":
         ans = input("### Choose board!\n(eg. 1-1, 2-3, ..) \n(q => quit) \n-------\n >")
+        if ans == "q":
+            break
         astar(ans)
 
 main()
