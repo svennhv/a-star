@@ -12,7 +12,7 @@ def edist(a,b): # Euclidean distance from a to b
 
 def astar(number):
     try:
-        with open("../boards/board-"+str(number)+".txt") as f:
+        with open("boards/board-"+str(number)+".txt") as f:
             board = f.read();
     except FileNotFoundError:
         print("\n*** BOARD NOT FOUND!***\n")
