@@ -40,7 +40,6 @@ draw_grid(diagram4, width=20,height = 7, number=cost_so_far, start=parse_board(g
 
 
 
-
 '''
 
 def main():
