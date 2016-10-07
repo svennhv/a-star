@@ -4,11 +4,6 @@ from graph import *
 from algorithm import *
 from grid import *
 
-def edist(a,b): # Euclidean distance from a to b
-    x = 0 # x distance
-    y = 0 # y distance
-    return math.sqrt(x+y)
-
 
 def astar(number):
     try:

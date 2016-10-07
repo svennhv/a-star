@@ -1,5 +1,6 @@
 from queue import *
 
+'''
 def dijkstra_search(graph, start, goal):
     frontier = PriorityQueue()
     frontier.put(start, 0)
@@ -33,7 +34,7 @@ def reconstruct_path(came_from, start, goal):
     path.append(start) # optional
     path.reverse() # optional
     return path
-
+'''
 
 # A* algorithm
 

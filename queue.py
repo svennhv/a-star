@@ -1,6 +1,7 @@
 import collections
 import heapq
 
+'''
 class Queue:
     def __init__(self):
         self.elements = collections.deque()
@@ -13,7 +14,7 @@ class Queue:
 
     def get(self):
         return self.elements.popleft()
-
+'''
 
 class PriorityQueue:
     def __init__(self):
